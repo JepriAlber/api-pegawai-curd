@@ -14,6 +14,10 @@
 
 ## Dokumentasi API
 
+### Catatan
+
+Ini dibuat di lokal, database bernama 'pegawai' dan colectionnya 'absens'
+
 ### 1. POST /absen
 
 #### Request Body
