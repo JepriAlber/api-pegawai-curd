@@ -1,0 +1,34 @@
+{
+  "name": "api-pegawai-crud",
+  "version": "1.0.0",
+  "description": "1. Bikin API menggunakan node.js dengan framework express.js dan menggunakan database\r    mongodb\r 2. API nya berupa CRUD absensi pegawai (bisa untuk absen hadir, izin cuti, dll)\r 3. Untuk izin dan cuti perlu ada approval, jadi izin dan cutinya bisa di acc atau tidak\r 4. Kemudian ada API untuk laporan pegawai telat berapa kali, gak masuk berapa kali, ambil cuti\r    berapa kali, dalam 1 bulan ada berapa cuti / izin yang di acc maupun tidak\r 5. Bikin dokumentasi dari API nya, contoh untuk create data absennya ke API /Absen/blablabla\r 6. Hasil API yang sudah dibuat, dibikin repo nya di GITHUB\r 7. Link dari repo nya nanti kirim kesini ya",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JepriAlber/api-pegawai-curd.git"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "api"
+  ],
+  "author": "jepri alber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JepriAlber/api-pegawai-curd/issues"
+  },
+  "homepage": "https://github.com/JepriAlber/api-pegawai-curd#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
